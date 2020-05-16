@@ -1,0 +1,26 @@
+{
+    "description": "Write your thoughts to a journal file without leaving ulauncher",
+    "developer_name": "Christoph Krybus",
+    "icon": "images/icon.png",
+    "name": "Journal",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "default_value": "j",
+            "description": "Write your thoughts to a journal file",
+            "id": "journal_kw",
+            "name": "Journal",
+            "type": "keyword"
+        },
+        {
+            "default_value": "~/journal.txt",
+            "description": "The location of your journal plain text file",
+            "id": "journal_path",
+            "name": "Journal file path",
+            "type": "input"
+        }
+    ],
+    "required_api_version": "^2.0.0"
+}
