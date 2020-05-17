@@ -19,7 +19,7 @@ https://github.com/ckrybus/ulauncher-journal
 
 ## Todo
 - [ ] support new lines in query field e.g. "\n"
-- [ ] add time format settings
+- [x] add time format to settings
 - [ ] allow to specify a title
 - [ ] show 5 latest entries
 

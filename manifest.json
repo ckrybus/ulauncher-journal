@@ -8,18 +8,31 @@
     },
     "preferences": [
         {
-            "default_value": "j",
-            "description": "Write your thoughts to a journal file",
             "id": "journal_kw",
             "name": "Journal",
-            "type": "keyword"
+            "type": "keyword",
+            "default_value": "j",
+            "description": "Write your thoughts to a journal file"
         },
         {
-            "default_value": "~/journal.txt",
-            "description": "The location of your journal plain text file",
             "id": "journal_path",
             "name": "Journal file path",
-            "type": "input"
+            "type": "input",
+            "default_value": "~/journal.txt",
+            "description": "The location of your journal plain text file"
+        },
+        {
+            "id": "journal_datetime_format",
+            "type": "select",
+            "name": "Journal date time format",
+            "description": "Choose the date time format you prefer",
+            "default_value": "MM/DD/YYYY HH:MM",
+            "options": [
+                "DD.MM.YYYY HH:MM",
+                "DD-MM-YYYY HH:MM",
+                "MM-DD-YYYY HH:MM",
+                "MM/DD/YYYY HH:MM"
+            ]
         }
     ],
     "required_api_version": "^2.0.0"
